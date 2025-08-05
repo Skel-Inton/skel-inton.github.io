@@ -2,11 +2,11 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     display: flex;
-    background: #2f0b6e; /* purple */
+    background: #2b1552; /* purple */
 }
 .sidebar {
     width: 220px;
-    background: #2d0066; /* darker purple */
+    background: #1f1131; /* darker purple */
     color: #fff;
     height: 100vh;
     padding: 20px 0;
