@@ -20,7 +20,10 @@
             text-align: center;
             min-height: 80vh;
         }
-    </style>
+        </style>
+        <!-- Marked.js for Markdown parsing -->
+        <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+        <script defer src="blog.js"></script>
 </head>
 
 <body>
@@ -34,8 +37,7 @@
     </div>
     <div class="main-content">
         <h1>Blogposts</h1>
-        <p>August 6th 2025: Made the website yesterday, and committed it to GitHub. Plan for today is to get started on
-            some game development in Godot and learn how to webexport the games and host them in there</p>
+        <div id="blog-container"></div>
     </div>
 </body>
 
