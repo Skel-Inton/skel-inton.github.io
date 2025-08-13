@@ -10,8 +10,7 @@ async function fetchMarkdownAsHtml(mdPath) {
 
 async function loadBlogPosts() {
     const blogList = [
-        { title: "Example Blog Post", file: "blog/example-post.md" },
-        { title: "Example Blog Post", file: "blog/post.md" }
+        { title: "Posts", file: "blog/posts.md" },
     ];
     const container = document.getElementById("blog-container");
     for (const post of blogList) {
